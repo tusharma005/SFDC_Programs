@@ -1,0 +1,8 @@
+<apex:page controller="ArrayExample">
+    	<apex:pageBlock >
+        	<apex:pageBlockTable value="{!arr}" var="a">
+                <apex:column value="{!a}" />
+            </apex:pageBlockTable>
+            <apex:outputLabel >{!name}</apex:outputLabel>
+        </apex:pageBlock>
+</apex:page>
